@@ -23,7 +23,7 @@ const String _textFieldText1 = """### **基本用法**
 - 默认情况下，TextField 下方有一个下划线进行修饰。
 - 您可以使用decoration属性来控制该widget样式，例如通过添加标签或图标。如果将decoration属性设置为空，则将完全删除装饰，包括装饰引入的额外填充，以节省标签的空间。
 - 如果decoration属性是非null（这是默认的），文本字段需要它的父类是一个Material widget。当文本字段被点击时，会出发被点击的效果。
-- 若要将TextField和其他FormFild集成到Form中，请考虑使用TeTFrimeField。""";
+- 若要将TextField和其他FormFild集成到Form中，请考虑使用TextFormField。""";
 
 const String _textFieldText2 = """### **进阶用法**
 > 实现稍微复杂点的效果，TextField 的输入以数字优先，为输入框做一些其他的效果，如提示文字，icon、标签文字等
